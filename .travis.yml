@@ -2,4 +2,4 @@ language: python
 python:
   - "3.6"
 script:
-    - python manage.py test
+    - cd drf-test-api && python manage.py test
