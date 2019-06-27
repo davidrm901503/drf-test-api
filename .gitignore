@@ -102,3 +102,15 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+venv
+*.pyc
+staticfiles
+.env
+*.idea/
+/.idea
+/.idea/*
+.DS_Store
+env
+
