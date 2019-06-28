@@ -3,8 +3,8 @@ language: python
 python:
   - "3.7"
 services: # => 3
-  - sqlite
+  - postgres
 env:
-  - DJANGO=2.2 DB=sqlite
+  - DJANGO=2.2 DB=postgres
 script:
   - python manage.py test
